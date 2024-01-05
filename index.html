@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="./script.js"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -16,21 +15,27 @@
       <p>Choose Your Weapon!</p>
       <p id="low_para">First to five points wins</p>
     </div>
-
+    <div class="game_info">
+      <div id="result">???</div>
+    </div>
     <div class="display_score">
       <div>
         <div class="p_score">Player: 0</div>
-        <img src="./img/scissors.png" alt="scissors-hand-guesture" />
+        <img
+          id="adj-p-img"
+          src="./img/scissors.png"
+          alt="scissors-hand-guesture"
+        />
       </div>
       <div>
         <div class="c_score">Computer: 0</div>
-        <img src="./img/paper.webp" alt="paper-hand-guesture" />
+        <img id="adj-c-img" src="./img/paper.webp" alt="paper-hand-guesture" />
       </div>
     </div>
     <div class="btns">
-      <img src="./img/rock.png" alt="" />
-      <img src="./img/paper.webp" alt="" />
-      <img src="./img/scissors.png" alt="" />
+      <img id="rock" src="./img/rock.png" alt="" />
+      <img id="paper" src="./img/paper.webp" alt="" />
+      <img id="scissors" src="./img/scissors.png" alt="" />
     </div>
     <div class="footer">
       <a
@@ -44,5 +49,11 @@
         ><img src="./img/github-mark.svg" alt="githublogo"
       /></a>
     </div>
+    <div class="pop-up" id="align-center">
+      <div class="popup-content" id="align-center">
+        <button id="rst-btn">Restart</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>
