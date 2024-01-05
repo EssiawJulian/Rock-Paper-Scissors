@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: #607274;
+    color: white;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-weight: 900;
+    font-size:xx-large;
+    padding: 0.5em 0;   
+    align-items: center;
+    gap: 24px;
+    border-bottom: 0.5px solid gray;
+}
+
+.header img{
+    height: 2em;
+    border-radius: 50%;
+}
+
+.display_score {
+    display: flex;
+    background-color: #FAEED1;
+    justify-content: center;
+    gap: 150px;
+    height: 400px;
+    align-items: center;
+}
+
+.display_score img {
+    width: 150px;
+    padding: 5px;
+    border: 2px solid #607274;
+    border-radius: 8px;
+    background-color: #607274;
+}
+
+.p_score, .c_score {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: #B2A59B;
+    margin-bottom: 1em;
+}
+
+.game_info {
+    font-size: 40px;
+    background-color: #FAEED1;
+    text-align: center;
+    font-weight:900;
+    font-family: 'Roboto';
+    color: #092635;
+    padding-top: 1em;
+}
+
+#low_para {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.fill {
+    flex: 1;
+}
+/*Button*/
+.btns {
+   display: flex;
+   justify-content: center;
+   gap: 5em;
+   background-color: #DED0B6;
+   height: 20em;
+   align-items: center;
+}
+
+.btns img {
+    height: 150px;
+    padding: 4px;
+    border: 2px solid #607274;
+    border-radius: 50%;
+}
+
+.btns img:hover{
+    opacity: 0.5;
+}
+
+/*footer*/
+.footer {
+    background-color: #B2A59B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 5px 0;
+}
+
+.footer img {
+    height: 2em;
+}
+
+.footer div {
+    font-size: 26px;
+    color: #092635;
+}
+
+.footer a {
+    text-decoration: none;
+}
